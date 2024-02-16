@@ -13,15 +13,15 @@ body {
 
 }
 
-.Container{
+/* .Container{
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; 
 }
 
 
@@ -72,8 +72,8 @@ body {
   display:flex;
   flex-direction: row;
   align-items: center;
-}
-
+} 
+*/
 
 
 
