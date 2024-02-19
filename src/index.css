@@ -1,17 +1,81 @@
-body {
-  min-height: 100vh;
+*{
   margin: 0;
   padding: 0;
+}
+
+html, body{
+  height: 100vh;
+}
+
+body {
+  display: block;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: pink;
 
   
 
 
 }
+
+.Home{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: teal;
+
+}
+
+.Header{
+  display: block;
+  background-color: #efefef;
+  width: 100vw;
+  height: 7%;
+  
+}
+
+.Header p{
+  float: left;
+  margin-top: 1.50rem;
+
+}
+
+.Header button{
+  float: right;
+  margin-top: 5px;
+}
+
+#FBShareButton{
+  margin-right: 3px;
+}
+
+#TwitterShareButton{
+  margin-right: 5px;
+}
+
+.Content{
+  background-color: burlywood;
+  width: 30%;
+  padding: 30px 5px 30px 5px;
+  align-self: center;
+  text-align: left;
+}
+
+.Footer{
+  background-color:lightslategrey;
+  align-self: center;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
 
 /* .Container{
   margin: 0;
@@ -74,15 +138,3 @@ body {
   align-items: center;
 } 
 */
-
-
-
-
-
-
-
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
