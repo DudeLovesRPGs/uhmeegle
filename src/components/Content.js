@@ -7,13 +7,17 @@ const Content = () => {
 
     <b><p>NOTE: This site is in active development. Message contents are not private and may be seen by the developer. Please use caution.</p></b>
 
-    <p>What do you want to talk about?</p>
-    <input type="text" />
+    <span>What do you want to talk about?</span>
+    
+    <span id='chatText'>Start chatting</span>
+    <br />
+    <input id='interestsField' type="text" />
 
+    <div id='buttonRow'>
     <button>Text</button>
-    <p>or</p>
+    <span>or</span>
     <button>Video</button>
-
+    </div>
 </section>)
 
 

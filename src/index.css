@@ -25,7 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: teal;
+  background-color: honeydew;
 
 }
 
@@ -34,6 +34,9 @@ body {
   background-color: #efefef;
   width: 100vw;
   height: 7%;
+  margin-bottom: 15px;
+  box-shadow: 5px 10px 8px 2px #888888 ;
+
   
 }
 
@@ -46,6 +49,7 @@ body {
 .Header button{
   float: right;
   margin-top: 5px;
+  border-radius: 5px;
 }
 
 #FBShareButton{
@@ -56,12 +60,47 @@ body {
   margin-right: 5px;
 }
 
-.Content{
-  background-color: burlywood;
+.Content{ 
+  background-color: #efefef;
   width: 30%;
-  padding: 30px 5px 30px 5px;
+  padding: 30px 10px 30px 10px;
   align-self: center;
   text-align: left;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 10px 8px 1px #888888 ;
+
+}
+
+
+
+#chatText{
+  float: right;
+}
+
+.Content p, input{
+  margin-bottom: 15px;
+}
+
+#interestsField{
+  font-size: 1.5rem;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+#buttonRow{
+  float: right;
+}
+
+#buttonRow button{
+  margin: 5px;
+  padding: 4px;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 5px;
+  border-width: 0px;
+  background-color:dodgerblue;
+  color: white;
 }
 
 .Footer{
@@ -75,66 +114,3 @@ code {
     monospace;
 }
 
-
-
-/* .Container{
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 100vh;
-  /* justify-content: center;
-  align-items: center; 
-}
-
-
-
-.Header{
-  min-height: 7%;
-  width: 100vw;
-  background-color: lightblue;
-  display: flex;
-  margin-bottom: 10px;
-  
-  
-}
-
-.Header > :first-child {
-  margin-right: auto;
-  
-}
-
-.Header :nth-child(2) {
-  margin-top: 5px;
-}
- 
-.Header :last-child{
-  margin: 5px 10px 0 5px
-}
-
-.Header button{
-  font-size: 0.75rem;
-  height: 1.5rem;
-}
-
-.Home{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items:center;
-  background-color: brown;
-  text-align: center;
-  
-  height: 80%;
-  width: 80%;
-  
-  
-} 
-
-.Footer{
-  display:flex;
-  flex-direction: row;
-  align-items: center;
-} 
-*/
