@@ -1,5 +1,10 @@
 import React from 'react'
 
+/*TODO [ChatPage]: Wire up 'Text' button to go to ChatPage*/
+/*TODO [HomePage]: Make 'Interests' field work like on original website*/
+
+
+
 const Content = () => {
 
     return(<section className='Content'>
@@ -12,6 +17,8 @@ const Content = () => {
     <span id='chatText'>Start chatting:</span>
     <br />
     <input id='interestsField' type="text" />
+
+
 
     <div id='buttonRow'>
     <button>Text</button>

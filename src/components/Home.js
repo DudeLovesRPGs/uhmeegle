@@ -3,7 +3,7 @@ import Header from './Header'
 import Content from './Content'
 import Footer from './Footer'
 
-//TODO:Decide whether to implement these,or delete at a later date. 
+//TODO [Homepage]: Decide whether to implement these,or delete at a later date. 
 import {FacebookShareButton, TwitterShareButton} from 'react-share'
 
 
