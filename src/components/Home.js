@@ -2,12 +2,14 @@ import React from 'react'
 import Header from './Header'
 import Content from './Content'
 import Footer from './Footer'
+
+//TODO:Decide whether to implement these,or delete at a later date. 
 import {FacebookShareButton, TwitterShareButton} from 'react-share'
 
 
 const Home = () => {
 
-    // TODO: Split header, main, and footer into own components.
+    
 
     return(
         <main className='Home'>

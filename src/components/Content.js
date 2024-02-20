@@ -7,9 +7,9 @@ const Content = () => {
 
     <b><p>NOTE: This site is in active development. Message contents are not private and may be seen by the developer. Please use caution.</p></b>
 
-    <span>What do you want to talk about?</span>
+    <span id = 'whatText'>What do you want to talk about?</span>
     
-    <span id='chatText'>Start chatting</span>
+    <span id='chatText'>Start chatting:</span>
     <br />
     <input id='interestsField' type="text" />
 
