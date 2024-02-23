@@ -136,11 +136,22 @@ button:hover{
 }
 
 .ChatPage .Chat{
+  display: block;
   align-self: center;
   height: 80%;
-  margin: 0 -10px 0 -10px;
-  width: 100%;
+  width: calc(100% - 10px);
   background-color: brown;
+  margin-bottom: 10px;
+}
+
+.ChatPage #chatButtonRow{
+  display: block;
+  height: 20%;
+  width: calc(100% - 10px);
+}
+
+.ChatPage #chatButtonRow #disconnectButton{
+  height: 100%;
 }
 
 
