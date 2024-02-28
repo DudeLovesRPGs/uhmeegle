@@ -3,9 +3,6 @@ import Header from './Header'
 import Content from './Content'
 import Footer from './Footer'
 
-//TODO [Homepage]: Decide whether to implement these,or delete at a later date. 
-import {FacebookShareButton, TwitterShareButton} from 'react-share'
-
 
 const Home = () => {
 

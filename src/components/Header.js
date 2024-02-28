@@ -2,9 +2,10 @@ import React from 'react'
 
 const Header = () => {
     return(<header className='Header'>
-    <p>Logo</p>
-    <button id='TwitterShareButton'>Tweet</button>
+    <p>Uhmeegle</p>
     <button id='FBShareButton'>Share</button>
+    <button id='TwitterShareButton'>Tweet</button>
+    
 </header>)
 }
 

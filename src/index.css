@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
 /*TODO [Homepage]: Refactor CSS; less hack-y margins and spacing, review for responsiveness/make responsive, etc. */
 
 
@@ -42,12 +43,12 @@ button:hover{
 
 
 .Header{
-/*TODO [Homepage]: Add actual logo in header at some point*/
+/*DONE [Homepage]: Add actual logo in header at some point*/
 /*TODO [Homepage]: Fix button styling in header.*/
 /*TODO [Homepage]: Fix header color to contrast better with background color*/
 
   
-  display: block;
+  display: flex;
   background-color: #efefef;
   width: 100vw;
   height: 7%;
@@ -58,15 +59,22 @@ button:hover{
 }
 
 .Header p{
-  float: left;
-  margin-top: 1.50rem;
+  justify-content: space-around;
+  margin-right: auto;
+  align-self: center;
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: #ff6433;
 
 }
 
 .Header button{
-  float: right;
+  align-self: start;
+  width: 50px;
   margin-top: 5px;
-  border-radius: 5px;
+  border-radius: 3px;
   background-color: #b6b6b6;
 }
 
@@ -75,8 +83,8 @@ button:hover{
 }
 
 #TwitterShareButton{
-  margin-right: 5px;
-}
+  margin-right: 8px;
+} 
 
 .Content{ 
   background-color: #efefef;
