@@ -61,6 +61,7 @@ button:hover{
 .Header p{
   justify-content: space-around;
   margin-right: auto;
+  margin-left: 3px;
   align-self: center;
   font-family: "Caprasimo", serif;
   font-weight: 400;
@@ -70,20 +71,18 @@ button:hover{
 
 }
 
-.Header button{
+.Header svg{
   align-self: start;
-  width: 50px;
   margin-top: 5px;
-  border-radius: 3px;
-  background-color: #b6b6b6;
+  
 }
 
-#FBShareButton{
+.Header a[title = "github"]{
   margin-right: 3px;
 }
 
-#TwitterShareButton{
-  margin-right: 8px;
+.Header a[title = "linkedin"]{
+  margin-right: 5px;
 } 
 
 .Content{ 
