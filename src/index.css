@@ -71,6 +71,10 @@ button:hover{
 
 }
 
+.Header p:hover{
+  cursor: pointer;
+}
+
 .Header svg{
   align-self: start;
   margin-top: 5px;
