@@ -30,13 +30,13 @@ button:hover{
 }
 
 .Home, .ChatPage{
-/*TODO [Homepage]: Fix background color to be closer to Omegle original*/
+/*DONE [Homepage]: Fix background color to be closer to Omegle original*/
 
   display: flex;
   flex-direction: column;
   height: 100vh;
   width: 100vw;
-  background-color: #f2f0df;
+  background-color: #fff7ee;
 
 }
 
@@ -45,11 +45,11 @@ button:hover{
 .Header{
 /*DONE [Homepage]: Add actual logo in header at some point*/
 /*DONE [Homepage]: Fix button styling in header.*/
-/*TODO [Homepage]: Fix header color to contrast better with background color*/
+/*DONE [Homepage]: Fix header color to contrast better with background color*/
 
   
   display: flex;
-  background-color: #efefef;
+  background-color: #ffffff;
   width: 100vw;
   height: 7%;
   margin-bottom: 15px;
@@ -90,7 +90,7 @@ button:hover{
 } 
 
 .Content{ 
-  background-color: #efefef;
+  background-color: #ffffff;
   width: 30%;
   padding: 30px 10px 30px 10px;
   align-self: center;
@@ -142,7 +142,7 @@ button:hover{
   flex-direction: row;
   background-color: none;
   align-self: center;
-  color: #99a3a3;
+  color: #555555;
   
 }
 
