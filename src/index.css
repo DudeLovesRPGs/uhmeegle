@@ -91,6 +91,8 @@ button:hover{
 
 .Content{ 
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
   width: 30%;
   padding: 2rem 0.5rem 2rem 0.5rem;
   align-self: center;
@@ -101,13 +103,25 @@ button:hover{
 
 }
 
-
-#whatText{
-  margin-left: 2rem;
+.Content form{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  
 }
 
-#chatText{
-  float: right;
+.Content form label{
+  display:block;
+  margin-left: 2rem;
+
+}
+
+
+
+
+.Content form div p{
   margin-right: 4rem;
 }
 
@@ -119,11 +133,10 @@ button:hover{
   font-size: 1.5rem;
   margin-top: 0.25rem;
   border-radius: 5px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
-#buttonRow{
-  float: right;
-}
 
 #buttonRow button{
   margin: 5px;
